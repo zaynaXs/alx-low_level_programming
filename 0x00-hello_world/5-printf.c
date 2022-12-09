@@ -3,7 +3,7 @@
  *main - Uses printf to print a string
  *
  *Description: We have been tasked with using printf
- *Return: Shouldn't return anything (0)
+ *Return: Should return 0
  */
 int main(void)
 {
