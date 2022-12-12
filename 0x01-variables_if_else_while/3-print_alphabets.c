@@ -8,6 +8,8 @@
 int main(void)
 {
         char a = 'a';
+	char b = 'A';
+
 
         while (a <= 'z')
         {
@@ -15,8 +17,6 @@ int main(void)
                 a++;
         }
 
-        putchar('\n');
-	        char b = 'A';
 
         while (a <= 'Z')
         {
@@ -24,8 +24,8 @@ int main(void)
         	b++;
         }
 
-        putchar('\n');
 
-        return (0);
+        putchar('\n');
+	return (0);
 }
 
