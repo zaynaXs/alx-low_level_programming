@@ -12,14 +12,14 @@ void _puts(char *str)
 	int len;
 	int i;
 
-	len = _strlen(*str);
+	len = _strlen(str);
 	i = 0;
-	while (str[i] < len)
+	while (i < len)
 	{
 		_putchar(str[i]);
 		i++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
 
 /**
@@ -33,7 +33,7 @@ int _strlen(char *s)
 	int l;
 
 	l = 0;
-	while (*str++)
+	while (*s++)
 	{
 		l++;
 	}
